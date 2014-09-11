@@ -1,0 +1,51 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+<div class="jumbotron">
+	<div class="container">
+		<h1>Contributors Editorial</h1>
+		<p>Specs for contributors’ contribution to Marketplace.</p>
+		<p>Contributors: those who are already engaged, or want to get involved in an editorial capacity. Contributors are <em>not</em> every user of the Marketplace. A lot of the activities are going to involve a bit of effort rather than one-tap-and-done.</p>
+		<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. 
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		<p>Issues we are working and would like to get feedback on</p>
+		<ul class="longText">
+		  <li>Types of contributors | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/11">GitHub issue</a></li>
+		  <li>Recruiting new users and engaging existing contributors (who already contribute to other projects) | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/8">GitHub issue</a></li>
+		  <li>Content types that contributors can create | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/7">GitHub issue</a></li>
+		  <li>Sharing and promoting materials | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/9">GitHub issue</a></li>
+		  <li>Recognising contributors | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/10">GitHub issue</a></li>
+		  <li>Mozilla Editorial vs. Contributors Editorial | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/6">GitHub issue</a></li>
+			<li><a href="img/community-collections-customer-journey-map-v1.3.pdf">Map a contributor’s customer journey through the service</a> | <a href="https://github.com/pwalm/marketplace-community-editorial/issues/4">GitHub issue</a></li>
+		</ul>
+		
+		<p>Content plan for this specs (subject to change)</p>
+		<ul class="longText">
+		  <li>High-level overview
+		    <ul>
+  		    <li>Situations</li>
+  		    <li>Business problems we’re solving</li>
+  		    <li>etc. – Phil has worked on a lot of these</li>
+  		  </ul>
+  		</li>
+      <li>Mid-level strategies
+        <ul>
+          <li>Customer journey map</li>
+          <li>A page that explains each step of the journey: description, user needs, user activities, etc.</li>
+          <li>Design principles</li>
+        </ul>
+      </li>
+      <li>Low-level concepts
+        <ul>
+          <li>Ideas that apply to specific parts of the journey: interest, recruitment, first usage, sharing, promotion, support, future contributions, etc.</li>
+          <li>Implementation details for each idea: screen flow, paper mockups, prototypes, visual design</li>
+        </ul>
+      </li>
+		</ul>
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
+	</div>
+</div>	

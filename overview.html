@@ -1,0 +1,31 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---	
+
+<div class="container">
+	<h1>Overview</h1>
+
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. -->
+	{% if page.multipage %}
+		{% include homePagination.html %}
+	{% endif %}
+
+	<div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+
+		<h3>Situation</h3>
+		<p class="longText">Now that we are about to launch the feed, we can see an issue on the horizon: How do we keep the feed fresh and relevant to keep new and current users coming back? How can we serve local communities and regions with relevant content specific to their interests in a timely fashion? By inviting some of our most prolific users, developers, and contributors to help maintain the Marketplace and create compelling editorial content for the feed: Community Editorial.</p>
+
+    <p class="longText">It can take a few forms: From suggesting an edit or translation on an existing app page to creating an in-depth video review of a popular new game. We’ll want to balance the emphasis so both the content and the contributor are of equal importance. It’s not just about the apps, it’s about the people who use our apps.</p>
+
+		<h3>Why should community editorial be a key piece of the Marketplace?</h3>
+		<ul class="longText">
+		 	<li>Mozilla <em>is</em> our community. Community editorial gives users a voice within the Marketplace.</li>
+		 	<li>New, specialised content from different perspectives (cultural, regional)</li>
+		 	<li>More in-depth reviews of the apps on our Marketplace (less “this app rules” more “Here’s 500 words on why this app rules”)</li>
+		 	<li>An evolving, dynamic, fresh feed full of engaging content.</li>
+		</ul>
+		
+	</div>
+	
+		

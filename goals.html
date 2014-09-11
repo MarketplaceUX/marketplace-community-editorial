@@ -1,0 +1,49 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---	
+
+<div class="container">
+	<h1>Goals and KPIs</h1>
+
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. -->
+	{% if page.multipage %}
+		{% include homePagination.html %}
+	{% endif %}
+
+	<div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+	
+	  <h3>Goals: what will define this service?</h3>
+	  
+	  <ul class="longText">
+	    <li><strong>Strong and interesting content types to contribute to</strong>. Community members who wants to contribute editorially will be able to do so in a number of new ways: written/video reviews of apps, comparisons, first impressions, walk-throughs and instructables, interviews, forums, etc.</li>
+      <li><strong>More diverse ways to contribute</strong>. Not every community member will want to contribute editorially. For them, there should be other ways to contribute. Translations, screenshots from Firefox OS devices, and providing correct information about apps and their developers are just a few ways anyone can help out.</li>
+      <li><strong>Transform the Community section into a diverse and fun feed of community-produced content</strong>. This section was originally envisioned as a page that only lists user collections, so this is a bit of a transformation. Scott can choose to promote the best of the best into the Home Feed, giving contributors a goal to keep their content high quality.</li>
+	  </ul>
+
+		<h3>KPIs: how will community editorial increase Marketplace’s success as a service?</h3>
+
+		<ul class="longText">
+		 	<li>Increase app download conversions on fxos (currently 46% > need to bump 10%)</li>
+      <li>Increase downloads per session</li>
+      <li>Views of collections and apps from collections</li>
+      <li>Downloads/purchases from collections and collection as referrals to download</li>
+      <li>Views of apps referred by a featured app</li>
+      <li>Downloads and purchases from Featured Apps</li>
+      <li>Views of Branded Editorials and apps from Branded Editorial Elements</li>
+      <li>Downloads of apps from Branded Editorial Elements</li>
+      <li>Return visitors</li>
+		</ul>
+		
+		<h3>How will this help Scott?</h3>
+		
+		<ul class="longText">
+		  <li>Hyper local apps and services that might fly under our radar will be surfaced (less hunting around)</li>
+      <li>More people populating the feed with content (less creating collections)</li>
+      <li>Self policing (all collections can be flagged for removal, community editorial members won’t want to lose earned privileges)</li>
+      <li>These users are already motivated to contribute to the Mozilla Project (no weeding out bad eggs)</li>
+		</ul>
+		
+	</div>
+	
+		
