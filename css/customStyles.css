@@ -54,3 +54,16 @@ ol.letters{
 .warning{
   color: #ff0000;
 }
+
+table.longText th, table.longText td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table.longText th {
+  font-weight: bold;
+}
+
+tablet.longText tr:nth-child(2n) {
+  background-color: #fff;
+}
