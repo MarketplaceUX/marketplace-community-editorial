@@ -1,0 +1,268 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---	
+
+<div class="container">
+	<h1>Types of Contribution</h1>
+
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. -->
+	{% if page.multipage %}
+		{% include homePagination.html %}
+	{% endif %}
+
+	<div class="col-sm-12 col-md-12 col-lg-12">
+	  
+	  <p class="longText">Initially, we started with the assumption that the contribution program will be composed solely of <strong>creating collections</strong>.</p>
+	  
+	  <p class="longText">We questioned that assumption. Why should collection be the only thing that’s possible to contribute to? And if a contributor only has a few hours in a week to contribute to Marketplace, what are some of the <strong>compelling and meaningful activities</strong> that s/he can take part in?</p>
+	  
+	  <p class="longText">It turned out that there are three different kinds of activities:</p>
+	  
+    <table class="longText">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Creating Something New</th>
+          <th>Supporting Marketplace</th>
+          <th>Supporting Fellow Contributors</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+  
+        <tr>
+          <th>Definition</th>
+          <td>Creating new materials for the Marketplace</td>
+          <td>Maintaining materials in the Marketplace</td>
+          <td>Helping other contributors create the best work</td>
+        </tr>
+  
+        <tr>
+          <th>Characteristics</th>
+          <td>The editorial team and users can’t do it</td>
+          <td>Anybody can do it (but community members are more likely to want to do it)</td>
+          <td>Anybody can do it (in fact, it’s friendly to beginners)</td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Showcases the member’s skills, perspectives and personality</td>
+          <td>Showcases the Marketplace/Firefox perspective</td>
+          <td>Showcases both the member’s and Marketplace staff’s perspectives</td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Requires more active involvement</td>
+          <td>Doesn’t take a lot of time. Can be done in a piecemeal fashion.</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <th>Activities</th>
+          <td>Comparative app reviews: compare and contrast the features of many apps in the same category, rate them, and pick a favourite</td>
+          <td>Supplement app listing page with screenshots and videos that are functional, good looking, and taken from a Firefox OS device.</td>
+          <td>Marketplace of Ideas for Contributors: where contributors can pitch us thoughts, concepts and drafts. It can range from new content types that we haven’t thought of, first draft of a story that’s ready for publication but needs critique and editing, help with formatting a video walkthrough, etc. This is also for us, the editorial team (and maybe even the community, development or design team) to post announcements for contributors.</td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>A day in life: a listing of apps used throughout the day, from wake up (alarm, email, social network) to bedtime (reading, films, messaging, etc.) – It can be an enhancement to the profile page.</td>
+          <td>Complete the developer’s profile pages with information about staff members, other apps in the catalog, headquarter location, founding year, etc.</td>
+          <td>Marketplace Experiments for contributors: a way to activate cool experimental Marketplace features that we may or may not launch. For example: responsive Marketplace design, new skins, new navigation, one-tap to buy, etc. And then they can give feedback. This features aren’t meant for users. Note that it’s also not centred around helping with editorials.</td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>First impression video review: unboxing video for apps. Run an app for the first time, explore it a bit, and give honest reactions.</td>
+          <td>Help localise content that the editorial team had already came up with: find appropriate apps, translate strings, etc.</td>
+          <td>"Suggest an edit" all over the site. Easy way for people to contribute without really thinking about it. We could then contact people who contribute lots of useful edits and offer them a bigger role?</td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Single-app walkthrough: video recording of achieving specific goals within the apps, from inviting people to an appointment, to beating a tricky level. Helps user who doesn’t read English very well to use an app. (see: http://www.kloaka.nl/cut-the-rope-2/)</td>
+          <td>Help localise app landing page content. This one sounds too obvious to be overlooked. A contributor should be able to translate an app landing page in another language. The app might not be localised, but at least its description is. The interaction could be like this: when logged in as a contributor, the description, updates and release notes section will each have a “Translate” button. When selected, it will display the English string and a blank textbox that will allow a contributor to translate the string</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Many-app instructables: step-by-step tutorials to achieving a complex goal using many apps. Complex goals: planning a vacation, maintaining a list of customers with reminders to get in touch, etc. Tutorial format: “First, use app A to do this. Then, put this information into app B. Then, use app C to do that.” – To reduce complexity, it’s also possible to limit this many-app review to just two apps.<br></td>
+          <td>Community Hub maintenance. Every app will have this hub. It contains discussion forums, user-submitted screenshots and videos, third party news about the app, developer announcements about the app, and user reviews. It could be wild. The screenshots section could contain fan artworks, comic strips or image macros about a game, for example. This hub needs moderation. (steam has this: http://steamcommunity.com/app/223280)</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Interview with staff from a developer studio: come up with questions (or use ones that we came up with), send them an email, format the reply, and publish it.</td>
+          <td>Screenshots are often not descriptive enough (this is why screenshots often have headings up top), and image captions aren’t long enough (if they’re available at all). So let’s make the screenshots themselves interactive. Let’s say that the landing page has an image of the app’s home screen. What are the parts, and what do they do? Contributors can add pins that expand when tapped or hovered. For example, this area is where you set your preferences, this button is where you add a new event, this menu item is where you share, etc.</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Marketplace Community quarterly review: Every three months, the community comes together to put it up. It will have short stories, articles, opinion pieces, essays, poetry, artwork, music, video, journalism, etc. It’s entertaining readable pieces about apps, that are not apps.</td>
+          <td>Mark something as needing correction. This is a great way to start contributing, because there’s no actual editing involved. The process only involves marking things that needs editing. Developer is notified, and must correct it themselves. We could then contact people who contribute lots of useful edits and offer them a bigger role?</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Stories: long-form, in-depth review about an app that has proper text formatting and a better system than stars (a buy/don’t buy scale. A meter for design/performance/fun.) – Tony’s suggestion</td>
+          <td>Create edits – not just suggest. Let’s say that you’ve found a typo or incorrect information in the app landing page. As a contributor, you have the power to correct this information. Corrections are sent to developers for approval, and contributors get credit.</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>How-to: Show how to do something in an app. For example, how to take an awesome photo with your phone using Aviary (see: http://www.imore.com/how-to and http://www.148apps.com/category/news/howto/)</td>
+          <td>Review new apps - Give list of new apps in the Marketplace and encourage contributors to review them. X number of reviews could earn them recognition. Contributors could specialize in certain categories (games) and locales (Brazil)</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Appisodes - like comparitive reviews but as videos (see - http://appadvice.com/appnn/category/appadvicedaily)</td>
+          <td>Help developers get their app translated. Contributors could help app developers submit their strings to Transifex for translation</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Forums - you remember those :) Could be used to discuss a game for example on the app details screen. Could show featured forum in community tab</td>
+          <td>Find apps for x - have contributors find apps for a particular thing on the editorial calendar. For example, finding Christmas related apps</td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Voting: One way to know which productivity app is the best is to use personal opinion and analysis. Another way is to ask Marketplace users to vote. A vote doesn’t have to always cover “best”. Can be “Which has the nicest visuals?”, “Which has the best motion design?”, etc.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Best at x: When a contributor rates an app, s/he gets something more special than a star and a blank comment field. The comment is a fill-in-the-blank that asks one question: “This app is the best at _____”, and every time a contributor rate an app, it automatically show up on the Community page as something like “[display name] thinks that [app name] is the best at [something]”</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>My Battle Station: A phone is so much more than the app you use every day. It’s also about the way you customise and set it up. 1) Snap a screenshot of your homescreen, 2) tell us not only about the apps you have but also how you organise it, 3) link to your wallpaper so readers can download it, 4) link to your custom ringtones so readers can download it, 5) tell us about your phone model and any customisation you’ve done to it.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Steward on duty: When the content inside the Community tab is already unique, why not make the presentation unique, too? A community member (one at a time) should be able to theme the Community tab of one country. Background image and colour scheme can be customised. The order of the content inside remains unchanged, of course. And we can say “Your Community steward on duty this week is [avatar] [display name]”. Stewards change, and themes are refreshed.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Multi-device review. A review that focuses not on how well the app works, but how well the app scales up, down and across. Firefox OS phone, Android phone, Android tablets, desktop. We promise platform agnosticism, and this review is a way to demonstrate that.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Feature-based comparative reviews: where a comparative app review displays the app one after another, this one pits app A against app B in a feature-by-feature table format, like a product specs.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Art: Share your wallpaper and ringtone creations with Marketplace readers. Someday, Firefox OS will be skinnable (custom UI theme, custom keyboard design, etc.), and these skins should be able to be shared, as well.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>App talks: Podcast about apps. Not only highlighting new, popular and notable ones in our catalog, but also talking about general app-related news that’s of interest to users. This podcast is special because it’s delivered in local language. Like the app walkthrough, the focus of these talks doesn’t have to be promotional. In fact, it’s actually kind of educational. A lot of first-time smartphone users aren’t strong readers. They rely on oral or visual methods to communicate. This will help them learn and get up to speed.</td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td></td>
+          <td>Bilingual content: In many countries, English proficiency is associated with rise in prestige and access to global citizenship. A lot of our contributors are tech lovers who tend to be pretty savvy in written (not necessarily spoken) English. A really obvious method is to simply localise existing content – this would be a support activity. But can we create a special format that encourages unique bilingual contribution? For example, they can write an opinion piece or story in English, that will only appear on the local Community tab alongside content written in local language. However, on the bottom of this article is a set of ‘hard’ English words and its translation/meaning in the local language. Another example is to write something twice: once in a local language, and once more in English. Readers can read both alongside each other.</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p class="longText">Initially, we assumed that <strong>creating something new</strong> would be the primary means of contributing. However, when we presented these ideas to the stakeholders, they felt that the help they need the most have to do with maintaining materials that’s already been created, and <strong>supporting Marketplace</strong> content that’s already there.</p>
+    
+    <p class="longText">Returning to the drawing board, we thought of three different parties within Marketplace that could be supported:</p>
+	  
+	  <table class="longText">
+      <thead>
+        <tr>
+          <th>Editorial Support</th>
+          <th>Developer Support</th>
+          <th>User Support</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Help localise editorial content</strong> that Mozilla came up with. For example: we’re launching 10 new collections in Brazil and 10 other collections in India. We have the English text already.</td>
+          <td><strong>Supplement</strong> app listing page with functional, good-looking additional <strong>screenshots</strong> and videos – taken from a Firefox OS device</td>
+          <td><strong>Abuse patrol</strong>. Look through Marketplace for reviews, apps, other content that is inappropriate.</td>
+        </tr>
+        <tr>
+          <td><strong>Review new apps</strong> - Give list of new apps in the Marketplace and encourage contributors to review them. X number of reviews could earn them recognition. Contributors could specialize in certain categories (games) and locales (Brazil). Recommendations passed on to Scott.</td>
+          <td><strong>Localise app listing page</strong>. A lot of app landing page is only available in English. A lot of developers don’t, or can’t, localise. A contributor should be able to do this. The app might not be localised, but at least its description is.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Find apps for x</strong>. Have contributors find apps for a particular thing on the editorial calendar. For example, finding Christmas-related apps</td>
+          <td><strong>Help make screenshots interactive</strong>. Let’s say that the app listing page has a screenshot of the app’s home screen. What are the parts, and what do they do?</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Missing apps</strong>. Identifying gaps in content in locales and raising issue to editorial team. For example, identifying lack of newspapers in Macedonia.</td>
+          <td><strong>Mark information in the app listing page as needing correction</strong>. Somebody else is notified and invited to correct it.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>New and notable</strong>. Every so often, a great app comes along but is overlooked by the editors. A community member can be constantly on the lookout for these hidden gems: trying, testing, and recommending them for the editors.</td>
+          <td><strong>Edit app listing page</strong>. Let’s say that you’ve found a typo or incorrect information in the app landing page. As a contributor, you have the power to correct this information. Corrections are sent to developers for approval. Contributors get credit.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>Localise apps</strong>. This isn’t related to the app listing page. This is about localising the apps themselves, and helping developers to get their app strings translated into other languages using tools like Transifex.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>App promoters</strong>. Hook developers up with contributors who are passionate about their app. Have contributor work with developer to promote app via Facebook, Twitter, etc.</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p class="longText">Four ideas stuck out to our stakeholders at being particularly effective and immediately useful:</p>
+    
+    <ol class="longText">
+      <li>Supplement app listing page with screenshots</li>
+      <li>Localise app listing page</li>
+      <li>Optimise the review experience for contributors, to encourage review of apps with zero review</li>
+      <li>Abuse patrol: submiting app feedback to developers</li>
+    </ol>
+    
+    <p class="longText">The team chose to research, develop and prototype these ideas.</p>
+		
+	</div>
+	
+		
