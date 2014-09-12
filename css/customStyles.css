@@ -57,13 +57,13 @@ ol.letters{
 
 table.longText th, table.longText td {
   padding: 6px 13px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
 }
 
 table.longText th {
   font-weight: bold;
 }
 
-tablet.longText tr:nth-child(2n) {
+table.longText tr:nth-child(2n) {
   background-color: #fff;
 }
