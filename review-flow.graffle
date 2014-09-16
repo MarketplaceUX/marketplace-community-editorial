@@ -680,7 +680,7 @@
 			<real>-1</real>
 			<key>Points</key>
 			<array>
-				<string>{932, 449.5}</string>
+				<string>{933, 449.5}</string>
 				<string>{1042, 449.5}</string>
 			</array>
 			<key>Style</key>
@@ -733,10 +733,10 @@
 			<key>OrthogonalBarPoint</key>
 			<string>{0, 0}</string>
 			<key>OrthogonalBarPosition</key>
-			<real>46.599998474121094</real>
+			<real>-1</real>
 			<key>Points</key>
 			<array>
-				<string>{873.5, 495}</string>
+				<string>{874.5, 495}</string>
 				<string>{874.5, 620}</string>
 			</array>
 			<key>Style</key>
@@ -793,7 +793,7 @@
 			<key>Points</key>
 			<array>
 				<string>{710, 449.5}</string>
-				<string>{815, 449.5}</string>
+				<string>{816, 449.5}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1260,21 +1260,20 @@
 				bmcBlIQBK1tTaG93ICJZb3UgY2FuIGJlIGEgdG9wIGNv
 				bnRyaWJ1dG9yIGlmIHlvdSByZXZpZXcgYXBwcyB3aXRo
 				IGxlc3MgdGhhbiAzIHJldmlld3MuIExlYXJuIG1vcmUi
-				hoQCaUkBUJKEhIQMTlNEaWN0aW9uYXJ5AJSEAWkEkoSW
-				lg5OU09yaWdpbmFsRm9udIaShISEBk5TRm9udB6UmSCE
-				BVszMmNdBgAAABYAAAD//kYAaQByAGEAUwBhAG4AcwBP
-				AFQAAACEAWYLhAFjAJ0BnQCdAIaShJaWEE5TUGFyYWdy
-				YXBoU3R5bGWGkoSEhBBOU1BhcmFncmFwaFN0eWxlAJSE
-				BENDQFMCAISEhAdOU0FycmF5AJSZDJKEhIQJTlNUZXh0
-				VGFiAJSEAkNmAByGkoSiogA4hpKEoqIAVIaShKKiAHCG
-				koSiogCBjACGkoSiogCBqACGkoSiogCBxACGkoSiogCB
-				4ACGkoSiogCB/ACGkoSiogCBGAGGkoSiogCBNAGGkoSi
-				ogCBUAGGhoEACIQEWzFmXYPNzEw9hpKElpYGTlNGb250
-				hpKakoSWlgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCUnQKE
-				BGZmZmaD+PZ2P4P593c/g/n3dz8BhoaXAgqShJiZBZKu
-				kpqSnJKdkpmSmpKElpYLTlNVbmRlcmxpbmWGkoSEhAhO
-				U051bWJlcgCEhAdOU1ZhbHVlAJSEASqEhAFxqQGGkq+S
-				sIaXAQGG
+				hoQCaUkBUJKEhIQMTlNEaWN0aW9uYXJ5AJSEAWkDkoSW
+				lgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCUhAFjAoQEZmZm
+				ZoP49nY/g/n3dz+D+fd3PwGGkoSWlhBOU1BhcmFncmFw
+				aFN0eWxlhpKEhIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARD
+				Q0BTAgCEhIQHTlNBcnJheQCUmQyShISECU5TVGV4dFRh
+				YgCUhAJDZgAchpKEoqEAOIaShKKhAFSGkoSioQBwhpKE
+				oqEAgYwAhpKEoqEAgagAhpKEoqEAgcQAhpKEoqEAgeAA
+				hpKEoqEAgfwAhpKEoqEAgRgBhpKEoqEAgTQBhpKEoqEA
+				gVABhoaBAAiEBFsxZl2DzcxMPYaShJaWBk5TRm9udIaS
+				hISEBk5TRm9udB6UmSCEBVszMmNdBgAAABYAAAD//kYA
+				aQByAGEAUwBhAG4AcwBPAFQAAACEAWYLmwCbAZsAmwCG
+				hpcCCpKEmJkEkq6Sr5Kckp2ShJaWC05TVW5kZXJsaW5l
+				hpKEhIQITlNOdW1iZXIAhIQHTlNWYWx1ZQCUhAEqhIQB
+				cakBhpKZkpqGlwEBhg==
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
@@ -1386,7 +1385,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{815, 404}, {117, 91}}</string>
+			<string>{{816, 404}, {117, 91}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -2484,7 +2483,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-09-16 22:29:02 +0000</string>
+	<string>2014-09-16 22:40:48 +0000</string>
 	<key>Modifier</key>
 	<string>Maureen Hanratty</string>
 	<key>NotesVisible</key>
@@ -2565,7 +2564,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{-206, 64}, {1618, 802}}</string>
+		<string>{{-278, 57}, {1440, 802}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -2579,7 +2578,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-620, 0}, {2966, 1326}}</string>
+		<string>{{-442, 0}, {2610, 1326}}</string>
 		<key>Zoom</key>
 		<real>0.5</real>
 		<key>ZoomValues</key>
