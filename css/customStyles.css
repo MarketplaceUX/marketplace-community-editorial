@@ -72,6 +72,8 @@ table.longText tr:nth-child(2n) {
   background-color: #f2f2f2;
 }
 
+/* Show/hide mechanism */
+
 input#show, input#hide {
   display:none;
 }
@@ -84,5 +86,20 @@ input#show:checked ~ div#showHide {
 }
 
 input#hide:checked ~ div#ShowHide {
+  display:none;
+}
+
+input#show2, input#hide2 {
+  display:none;
+}
+
+div#showHide2 {
+  display:none;
+}
+input#show2:checked ~ div#showHide2 {
+  display:block;
+}
+
+input#hide2:checked ~ div#ShowHide2 {
   display:none;
 }
