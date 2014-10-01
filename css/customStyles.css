@@ -71,3 +71,11 @@ table.longText th {
 table.longText tr:nth-child(2n) {
   background-color: #f2f2f2;
 }
+
+.span3:focus ~ .alert {
+  display: none;
+}
+.span2:focus ~ .alert {
+  display: block;
+}
+.alert{display:none;}
