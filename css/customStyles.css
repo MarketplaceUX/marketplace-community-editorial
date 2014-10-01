@@ -72,10 +72,17 @@ table.longText tr:nth-child(2n) {
   background-color: #f2f2f2;
 }
 
-.span3:focus ~ .alert {
-  display: none;
+input#show, input#hide {
+    display:none;
 }
-.span2:focus ~ .alert {
-  display: block;
+
+span#test {
+    display:none;
 }
-.alert{display:none;}
+input#show:checked ~ span#test {
+  display:block;
+}
+
+input#hide:checked ~ span#test {
+    display:none;
+}
