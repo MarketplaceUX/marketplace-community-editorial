@@ -13,16 +13,6 @@ multipage: false
 
 	<div class="col-sm-12 col-md-12 col-lg-12">
 	
-	  <label for="show">
-      <span>[Show]</span>
-    </label>
-    <input type=radio id="show" name="group">
-    <label for="hide">
-      <span>[Hide]</span> 
-    </label>    
-    <input type=radio id="hide" name="group">
-    <span id="test">Content</span>
-	
 	  <h2>Initial ideas</h2>
 	  
 	  <p class="longText">We started this project with the assumption that the contribution program will be composed <strong>solely of creating collections</strong>.</p>
@@ -32,6 +22,20 @@ multipage: false
 	  <p class="longText">We questioned this assumption. Why should collection be the only thing that’s possible to contribute to? And if a contributor only has a few hours in a week to contribute to Marketplace, what are some of the <strong>compelling and meaningful activities</strong> that s/he can take part in?</p>
 	  
 	  <p class="longText">It turned out that there are three different kinds of activities:</p>
+	  
+    <label for="show">
+      <span class="longText">Show table</span>
+    </label>
+    <input type=radio id="show" name="group">
+    
+    <span class="longText">|</span>
+    
+    <label for="hide">
+      <span class="longText">Hide table</span> 
+    </label>    
+    <input type=radio id="hide" name="group">
+
+    <div id="showHide">
 	  
     <table class="longText">
       <thead>
@@ -214,6 +218,8 @@ multipage: false
         </tr>
       </tbody>
     </table>
+    
+    </div>
     
     <h2>Meeting with stakeholders</h2>
     

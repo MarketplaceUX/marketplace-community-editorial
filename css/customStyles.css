@@ -79,10 +79,10 @@ input#show, input#hide {
 span#test {
     display:none;
 }
-input#show:checked ~ span#test {
+input#show:checked ~ div#showHide {
   display:block;
 }
 
-input#hide:checked ~ span#test {
+input#hide:checked ~ div#ShowHide {
     display:none;
 }
