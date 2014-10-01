@@ -73,16 +73,16 @@ table.longText tr:nth-child(2n) {
 }
 
 input#show, input#hide {
-    display:none;
+  display:none;
 }
 
-span#test {
-    display:none;
+div#showHide {
+  display:none;
 }
 input#show:checked ~ div#showHide {
   display:block;
 }
 
 input#hide:checked ~ div#ShowHide {
-    display:none;
+  display:none;
 }
