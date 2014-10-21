@@ -27,33 +27,28 @@ multipage: false
       <li>Mozilla activates community contribution. This will do three things:
         <ol>
           <li>Enable translate and add screenshot links on App Details page</li>
-          <li>Notify all contributors who log in that they can now add translations and screenshots to the app details page</li>
-          <li>Notify all developers who log in that they can now accept contributions. The tone of the messaging emphasises the newness of the feature.</li>
+          <li>Notify all contributors who log in that they can now add screenshots to the app details page</li>
+          <li>Notify all developers who log in that they can now accept screenshots. The tone of the messaging emphasises the newness of the feature.</li>
         </ol>
       </li>
       <li>When a contribution is received, developers get notified. The notification here can’t be as splashy as the “New feature” notification. Maybe it’s a bar that appears up top. Maybe it’s a ① that appears to the side of the Contributions tab. There are many ways we can do this.</li>
     </ol>
     
-    <h3>Moderation</h3>
+    <h3>Review and Selection</h3>
 
     <ol class="longText">
-      <li>After a translation/screenshot is submitted by a contributor, it’s stored by the system</li>
+      <li>After a translation  is submitted by a contributor, it’s stored by the system</li>
       <li>The system notifies developers that a contribution is ready</li>
-      <li>Developers can view contribution, then approve or decline it
+      <li>Developers can view contribution, then select the ones to include in the app:
         <ul>
-          <li>If approved contribution is a screenshot, it’s appended to the existing screenshot gallery</li>
-          <li>If approved contribution is a translation, it overwrites any translation that’s currently up</li>
-          <li>If contribution is not approved, it doesn’t go up anywhere</li>
+          <li>If the app is hosted, Mozilla already stores the image file, so all the developer needs to do is copy/paste the image URL into the Marketplace Config file</li>
+          <li>If the app is packaged, the image file needs to be saved to the desktop, included in the app package folder, and referenced in the Marketplace Config file</li>
         </ul>
       </li>
     </ol>
-    
-    <p class="longText">So there are two end points. Either the contribution is approved, or declined.</p>
     
     <img src="img/customer-journey-map-screenshots.png" width="1100">
     
     <h3><a href="concept-screenshots.html">See concepts</h3>
 	  		
 	</div>
-	
-		
